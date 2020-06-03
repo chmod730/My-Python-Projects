@@ -39,7 +39,7 @@ def ask_player_2(stone_count):
     choice = int(input("Player 2 would you like to remove 1 or 2 stones? "))
     while int(choice) > stone_count:
         print()
-        choice = int(input("There is only 1 stone left.  Please select 1: "))
+        choice = int(input("There is only 1 stone left.  Please enter 1: "))
     else:
         stone_count = check_value(choice, stone_count)
     return stone_count
