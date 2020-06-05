@@ -1,7 +1,7 @@
 
 
 '''
-queries the user for a weight in kilograms and outputs the
+queries the user for a mass in kilograms and outputs the
 energy it contains in joules.
 '''
 
@@ -10,7 +10,7 @@ TNT = 0.00000000024  # Equivalent to 1 joule
 
 def main():
     print()
-    print("This program works out Einstein's famous equation E = mc2 ")
+    print("This program works out the energy contained in a given mass using Einstein's famous equation: E = mc2 ")
     while True:
         print()
         mass = input("Please enter a mass in Kg: ")
