@@ -1,7 +1,7 @@
 
 
 '''
-queries the user for a mass in kilograms and outputs the
+This will query the user for a mass in kilograms and outputs the
 energy it contains in joules.
 '''
 
